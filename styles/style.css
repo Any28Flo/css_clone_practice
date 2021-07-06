@@ -4,3 +4,65 @@ Text: 1A1A1A
 Green: #00B172
 White: #FFF
 */
+body, html, main {
+    margin: 0;
+    padding: 0;
+}
+
+#navbar {
+    position: fixed;
+    padding: 10px;
+    background-color: gray;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#spotify_logo {
+    max-width: 10em;
+}
+
+.list {
+    list-style: none;
+}
+
+.nav-link {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+#welcome {
+    background-image: url(/images/landing.jpg);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#welcome>h1, h5 {
+    color: white;
+}
+
+#description {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.desc-link {
+    border-style: solid;
+    border-radius: 2em;
+    max-width: 12em;
+    display: inline-block;
+    padding: 0px 20px 20px;
+    text-align: center;
+}
+
+#features {
+    padding-top: 100px;
+}
