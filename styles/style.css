@@ -4,20 +4,48 @@ Text: 1A1A1A
 Green: #00B172
 White: #FFF
 */
-.blue{
+body{
+    margin: 0 0;
+}
+section.bg_w{
     position: fixed;
+    top: 0px;
+    width: 100vw;
+    background-color: white;
+    padding: 10px 0px;
+}
+.blue{
     background: url(../images/spotify-logo.png) ;
     background-size: contain;
     background-position: left;
     background-repeat: no-repeat;
-    width: 98vw;
 }
 .green{
     display: flex;
     justify-content: flex-end;
+    margin-right: 20px;
 }
 a{
-    margin-left: 10px;
+    font-size: 25px;
+    margin: 0 15px;
     text-decoration: none;
     color:black;
+}
+.imagen{
+    background: url(../images/landing.jpg);
+    height: 100vh;
+    background-size: 100vw;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 5vw;
+}
+.everywhere{
+    font-size: 2vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
 }
