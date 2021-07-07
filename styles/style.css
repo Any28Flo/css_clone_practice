@@ -4,3 +4,20 @@ Text: 1A1A1A
 Green: #00B172
 White: #FFF
 */
+.blue{
+    position: fixed;
+    background: url(../images/spotify-logo.png) ;
+    background-size: contain;
+    background-position: left;
+    background-repeat: no-repeat;
+    width: 98vw;
+}
+.green{
+    display: flex;
+    justify-content: flex-end;
+}
+a{
+    margin-left: 10px;
+    text-decoration: none;
+    color:black;
+}
