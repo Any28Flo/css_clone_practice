@@ -28,6 +28,7 @@ header {
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 1;
 }
 
 nav ul {
@@ -44,7 +45,7 @@ nav ul li{
 
 main {
     background: url("../images/landing.jpg");
-    background-position-y: 40%;
+    background-position-y: 100%;
     background-size: cover;
     height: 100vh;
     width: 100%;
@@ -124,4 +125,72 @@ h6 {
     font-family: 'Montserrat', sans-serif;
     margin-top: 6%;
     text-align: center;
+}
+
+.green-section {
+    background-color: #00B172;
+    height: 90vh;
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%);
+    width: 90%;
+    padding: 30px 100px;
+}
+
+.green-section div {
+    width: 60%;
+}
+
+.green-section div h3, .green-section div div p {
+    color: white;
+}
+
+.green__h3 {
+    font-size: 2.3rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.green__h3 + hr {
+    color: #fff;
+    background-color: #fff;
+    height: 5px;
+    margin-top: 5px;
+    margin-left: 0;
+    width: 505px;
+}
+
+.green-section div div h3:first-child {
+    font-size: 1.8rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+.green-section div div {
+    padding: 30px 0;
+    margin: 0 0;
+    height: 160px;
+}
+
+.green-section div div p {
+    font-size: 1.3rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 200;
+}
+
+.spotify-ico {
+    width: 130px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.spotify-ico-app {
+    height: 80%;
+    position: absolute;
+    top: 55%;
+    right: 8%;
+    transform: translateY(-50%)
 }
