@@ -4,37 +4,93 @@ Text: 1A1A1A
 Green: #00B172
 White: #FFF
 */
-h1{
-    color: white;
-    font-weight: bold;
-    font-size: 4em;
+h1 {
+  color: white;
+  font-weight: bold;
+  font-size: 4em;
 }
 
-h2{
-    color: white;
-    font-weight: 300;
+h2 {
+  color: white;
+  font-weight: 300;
+  font-size: x-large;
+}
+
+h3 {
+  text-decoration: underline #00b172 4px;
+  text-underline-position: under;
+  font-size: 2em;
+  color: #1a1a1a;
+  text-align: center;
+}
+
+h4 {
+  color: #00b172;
+  text-align: center;
+  font-size: 2em;
+}
+
+h5 {
+  color: white;
+  text-decoration: underline 4px;
+  text-underline-position: under;
+  font-size: xx-large;
+  padding: 5%;
+}
+
+h6 {
     font-size: x-large;
+    color: white;
 }
 
-#banner{
-height: 100vh;
-background-image: url(../images/landing.jpg);
-background-size: cover;
-display: grid;
-text-align: center;
-align-content: center;
-justify-content: center;
+p {
+  width: 70%;
+  font-size: x-large;
+  margin: auto;
 }
 
-td{
-    font-size: small;
-    padding: 5px;
+#banner {
+  height: 100vh;
+  background-image: url(../images/landing.jpg);
+  background-size: cover;
+  display: grid;
+  text-align: center;
+  align-content: center;
+  justify-content: center;
 }
 
-#headerCol1{
-    width: 70%;
+#headerCol1 {
+  width: 60%;
 }
 
-*{
-    font-family: 'Montserrat', sans-serif;
+#whatsOn {
+}
+
+#greenDiv {
+  background-color: #00b172;
+  width: 95%;
+  margin: auto;
+}
+
+.icon {
+  width: 150px;
+}
+
+#tabla1 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+#tabla2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+.iconSection{
+    width: 30%;
+}
+* {
+  font-family: "Montserrat", sans-serif;
 }
