@@ -4,3 +4,37 @@ Text: 1A1A1A
 Green: #00B172
 White: #FFF
 */
+h1{
+    color: white;
+    font-weight: bold;
+    font-size: 4em;
+}
+
+h2{
+    color: white;
+    font-weight: 300;
+    font-size: x-large;
+}
+
+#banner{
+height: 100vh;
+background-image: url(../images/landing.jpg);
+background-size: cover;
+display: grid;
+text-align: center;
+align-content: center;
+justify-content: center;
+}
+
+td{
+    font-size: small;
+    padding: 5px;
+}
+
+#headerCol1{
+    width: 70%;
+}
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
