@@ -97,6 +97,18 @@ width: 100%;
     width: 30%;
 }
 
+header{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    align-content: center;
+    align-items: center;
+    margin: -8px;
+}
+
 * {
   font-family: "Montserrat", sans-serif;
 }
