@@ -88,9 +88,15 @@ p {
     text-align: center;
   }
 
+.white{
+color: white;
+width: 100%;
+}
+
 .iconSection{
     width: 30%;
 }
+
 * {
   font-family: "Montserrat", sans-serif;
 }
