@@ -4,3 +4,38 @@ Text: 1A1A1A
 Green: #00B172
 White: #FFF
 */
+.barrafija{
+    
+    width: 60vw;
+    height: 10vh;
+    background-color: #FFF;
+    order: 1;
+}
+
+#aboutMe{
+    display: flex;
+    position: fixed;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.imagenspot{
+    width: 15vw;
+    height: 8vh;
+    padding-top: 1vh;
+    padding-left: 15px;
+
+}
+.horizontal{
+    display: inline;
+    font-family: 'Encode Sans SC', sans-serif;
+    font-size:medium;
+    margin-left: 20px;
+}
+.segundo{
+    order: 2;
+    padding-left: 15vh;
+    padding-top: 1.5vh;
+    height: 10vh;
+    width: 40vw;
+    background-color:#FFF;
+}
