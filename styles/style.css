@@ -4,3 +4,184 @@ Text: 1A1A1A
 Green: #00B172
 White: #FFF
 */
+section.bg_w{
+    position: fixed;
+    top: 0px;
+    width: 100vw;
+    background-color: white;
+    padding: 10px 0px;
+}
+.blue{
+    background: url(../images/spotify-logo.png) ;
+    background-size: contain;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+.green{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+a{
+    font-size: 25px;
+    margin: 0 15px;
+    text-decoration: none;
+    color:black;
+}
+.imagen{
+    background: url(../images/landing.jpg);
+    height: 100vh;
+    background-size: 100vw;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 5vw;
+    background-repeat: no-repeat;
+}
+.everywhere{
+    font-size: 2vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+}
+.orange{
+    display: flex;
+    flex-direction: row;
+    margin: 50px 0px;
+    justify-content: space-evenly;
+
+}
+.red{
+    font-size: 3vw;
+    text-align: center;
+    margin-top: 50px;
+}
+.songs{
+    background: url(../images/music-icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 60px;
+    width: 200px;
+    background-size: contain;
+    margin-bottom: 20px;
+}
+.first_con{
+    color: #00B172;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.first_con p{
+    font-size: 1.5vw;
+    color: black;
+    width: 250px;
+}
+.hd{
+    background: url(../images/high-quality-icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 60px;
+    width: 200px;
+    background-size: contain;
+    margin-bottom: 20px;
+
+}
+.second_con{
+    color: #00B172;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.second_con p{
+    font-size: 1.5vw;
+    text-align: center;
+    color: black;
+    width: 250px;
+}
+.stream{
+    background: url(../images/devices-icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 60px;
+    width: 200px;
+    background-size: contain;
+    margin-bottom: 20px;
+}
+.third_con{
+    color: #00B172;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.third_con p{
+    font-size: 1.5vw;
+    text-align: center;
+    color: black;
+    width: 250px;
+}
+.marine{
+    width: 90vw;
+    height: 700px;
+    margin: 0 auto;
+}
+div.bg_green{
+    background: #00B172;
+    width: 100%;
+    height: 100%;
+}
+div.app{
+    background-image: url(../images/spotify-app.jpg);
+    height: 100%;
+    width: 90%;
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: center;
+    margin: -25px auto;
+}
+.text_bg{
+    color: white;
+    width: 450px;
+    height: 90%;
+}
+.kanye{
+    color: white;
+    font-weight: 800;
+    font-size: 35px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+.search{
+    font-weight: 800;
+    font-size: 35px;
+}
+.search_p{
+    font-size: 20px;
+    font-weight: 200;
+}
+.browse{
+    font-weight: 800;
+    font-size: 35px;
+}
+.browse_p{
+    font-size: 20px;
+    font-weight: 200;
+}
+.discover{
+    font-weight: 800;
+    font-size: 35px;
+}
+.discover_p{
+    font-size: 20px;
+    font-weight: 200;
+}
+.logo_w{
+    background: url(../images/spotify-icon-white.png);
+    background-size: contain;
+}
