@@ -8,7 +8,8 @@ White: #FFF
     
     width: 60vw;
     height: 10vh;
-    background-color: #FFF;
+    background-color:blue;
+    
     order: 1;
 }
 
@@ -17,6 +18,8 @@ White: #FFF
     position: fixed;
     flex-direction: row;
     justify-content: flex-start;
+    
+
 }
 .imagenspot{
     width: 15vw;
@@ -30,12 +33,38 @@ White: #FFF
     font-family: 'Encode Sans SC', sans-serif;
     font-size:medium;
     margin-left: 20px;
+    
 }
 .segundo{
     order: 2;
     padding-left: 15vh;
-    padding-top: 1.5vh;
+    
     height: 10vh;
     width: 40vw;
     background-color:#FFF;
+}
+.fondoetiqueta{
+    background-image: url("/images/landing.jpg");
+    margin-top: 0%;
+    background-size:100vw 90vh;
+   width: 100vw;
+   height:90vh;
+}
+.texto{
+    
+    margin-top: 0%;
+    padding-top: 25vh;
+    color: white;
+    text-align: center;
+    font-size: 70px;
+}
+.textopequeno{
+
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+.tamanosection{
+    
+    padding-top: 10vh;
 }
