@@ -4,9 +4,6 @@ Text: 1A1A1A
 Green: #00B172
 White: #FFF
 */
-body{
-    margin: 0 0;
-}
 section.bg_w{
     position: fixed;
     top: 0px;
@@ -41,6 +38,7 @@ a{
     justify-content: center;
     align-items: center;
     font-size: 5vw;
+    background-repeat: no-repeat;
 }
 .everywhere{
     font-size: 2vw;
@@ -127,4 +125,63 @@ a{
     color: black;
     width: 250px;
 }
-
+.marine{
+    width: 90vw;
+    height: 700px;
+    margin: 0 auto;
+}
+div.bg_green{
+    background: #00B172;
+    width: 100%;
+    height: 100%;
+}
+div.app{
+    background-image: url(../images/spotify-app.jpg);
+    height: 100%;
+    width: 90%;
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: center;
+    margin: -25px auto;
+}
+.text_bg{
+    color: white;
+    width: 450px;
+    height: 90%;
+}
+.kanye{
+    color: white;
+    font-weight: 800;
+    font-size: 35px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+.search{
+    font-weight: 800;
+    font-size: 35px;
+}
+.search_p{
+    font-size: 20px;
+    font-weight: 200;
+}
+.browse{
+    font-weight: 800;
+    font-size: 35px;
+}
+.browse_p{
+    font-size: 20px;
+    font-weight: 200;
+}
+.discover{
+    font-weight: 800;
+    font-size: 35px;
+}
+.discover_p{
+    font-size: 20px;
+    font-weight: 200;
+}
+.logo_w{
+    background: url(../images/spotify-icon-white.png);
+    background-size: contain;
+}
