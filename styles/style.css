@@ -12,13 +12,17 @@ White: #FFF
     
     order: 1;
 }
-
+#iconos{
+    display: flex;
+    
+    flex-direction: row;
+    justify-content: center;
+}
 #aboutMe{
     display: flex;
-    position: fixed;
+    
     flex-direction: row;
     justify-content: flex-start;
-    
 
 }
 .imagenspot{
@@ -44,7 +48,7 @@ White: #FFF
     background-color:#FFF;
 }
 .fondoetiqueta{
-    background-image: url("/images/landing.jpg");
+    background-image: url("../images/landing.jpg");
     margin-top: 0%;
     background-size:100vw 90vh;
    width: 100vw;
@@ -65,6 +69,23 @@ White: #FFF
     font-size: 25px;
 }
 .tamanosection{
-    
     padding-top: 10vh;
+}
+.texto_sub{
+    text-align: center;
+    text-decoration: underline #00B172;
+}
+.texto_imagen{
+    width: 20vw;
+    height: 50vh;
+    text-align: center;
+    margin-right: 15vh;
+    margin-left: 15vh;
+}
+.redimensionar_Icon{
+    width: 20vw;
+    height: 20vh;
+}
+.verde{
+    color: #00B172;
 }
