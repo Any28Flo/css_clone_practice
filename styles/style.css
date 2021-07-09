@@ -4,3 +4,161 @@ Text: 1A1A1A
 Green: #00B172
 White: #FFF
 */
+.margen{
+    margin-top: 10vh;
+}
+body{
+    margin-bottom: 0%;
+}
+.barrafija{
+    
+    width: 60vw;
+    height: 10vh;
+    background-color: white;
+    
+    order: 1;
+}
+.informacion{
+    width: 40vw;
+    height: 93vh;
+    margin-top: 7vh;
+    margin-left: 5vw;
+
+}
+#especificaciones{
+    display: flex;
+    flex-direction: row;
+ 
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+    background-color: #00B172;
+    width: 95vw;
+    height: 100vh;
+}
+
+#iconos{
+    display: flex;
+    margin-top: 10vh;
+    flex-direction: row;
+    justify-content: center;
+}
+#aboutMe{
+    display: flex;
+    
+    flex-direction: row;
+    justify-content: flex-start;
+
+}
+.imagenspot{
+    width: 15vw;
+    height: 8vh;
+    padding-top: 1vh;
+    padding-left: 15px;
+
+}
+.horizontal{
+    display: inline;
+    font-family: 'Encode Sans SC', sans-serif;
+    font-size:medium;
+    margin-left: 20px;
+    
+}
+.segundo{
+    order: 2;
+    padding-left: 15vh;
+    
+    height: 10vh;
+    width: 40vw;
+    background-color:#FFF;
+}
+.fondoetiqueta{
+    background-image: url("../images/landing.jpg");
+    margin-top: 0%;
+    background-size:100vw 90vh;
+   width: 100vw;
+   height:90vh;
+}
+.texto{
+    
+    margin-top: 0%;
+    padding-top: 25vh;
+    color: white;
+    font-family: 'Encode Sans SC', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-size: 70px;
+}
+.textopequeno{
+
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+.tamanosection{
+    padding-top: 10vh;
+}
+.texto_sub{
+    text-align: center;
+    text-decoration: underline #00B172;
+   
+}
+.texto_imagen{
+    width: 20vw;
+    height: 50vh;
+    text-align: center;
+    margin-right: 15vh;
+    margin-left: 15vh;
+}
+.redimensionar_Icon{
+    width: 20vw;
+    height: 20vh;
+}
+.verde{
+    color: #00B172;
+}
+.fuente_icono{
+    font-family: 'Encode Sans SC', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    color:grey;
+}
+.texto_grande{
+    color: #FFF;
+    font-family: 'Encode Sans SC', sans-serif;
+font-family: 'Open Sans', sans-serif;
+    font-size: 35px;
+    text-decoration: underline;
+}
+.texto_informacion{
+    color: #FFF;
+    font-family: 'Encode Sans SC', sans-serif;
+font-family: 'Open Sans', sans-serif;
+    font-size: 22px;
+}
+.texto_informacion_pequeno{
+    color: #FFF;
+    font-family: 'Encode Sans SC', sans-serif;
+font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+.reducir_imagen{
+    width: 20vh;
+    height: 20vh;
+}
+.informacion--imagen{
+    width: 10vw;
+    height: 50vh;
+    padding-top: 40vh;
+    
+}
+.informacion--album{
+    width: 40 vw;
+    height: 80vh;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    margin-left: 10vw;
+    margin-right: 5vw;
+}
+.informacion--album--imagen{
+    width: 30vw;
+    height: 80vh;
+}
