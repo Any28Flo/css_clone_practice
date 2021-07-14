@@ -1,3 +1,60 @@
+/* This is the default configuration for all web page */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+/* Header styles */
+.header {
+    position: fixed;
+    width: 100%;
+    height: 10vh;
+    z-index: 100;
+    background-color: #FFF;
+    display: flex;
+}
+
+.header > img {
+    margin: 10px 10px 10px 40px;
+}
+
+/* Navigation bar styles */
+.nav {
+    margin: 10px 20px 10px 0px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.nav > ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 5px;
+}
+
+.nav li{
+    display: inline;
+    text-align: center;
+    margin: 0 10px 0 0;
+}
+
+.nav li a {
+    padding: 2px 7px 2px 7px;
+    color: #666;
+    text-decoration: none;
+}
+
+.nav li a:hover{
+    background-color: #9E9E9E;
+    color: #1A1A1A;
+    border-radius: 5px;
+}
 /*
 Colors:
 Text: 1A1A1A
