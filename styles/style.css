@@ -132,6 +132,61 @@ p {
     text-align: center;
     margin: 0px 30px;
 }
+
+/* Description content styles */
+.description {
+    margin: 0px 20px;
+    width: 97%;
+    height: 90vh;
+    background-color: #00B172;
+    background-image: url("/images/spotify-icon-white.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20vh 20vh;
+    display: flex;
+}
+
+.col {
+    margin: 80px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.left {
+    color: #FFF;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.right
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.col > img {
+    width: 75%;
+    height: 90vh;
+}
+
+.col > h2 {    
+    font-size: 6vh;
+    margin-bottom: 30px;
+    border-bottom: solid 3px #FFF;
+}
+
+.col > h3 {
+    font-size: 4vh;
+    margin: 20px 0px;
+}
+
+.col > p {
+    margin-right: 56vh;
+    font-size: 2.5vh;
+}
 /*
 Colors:
 Text: 1A1A1A
