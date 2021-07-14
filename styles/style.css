@@ -1,3 +1,192 @@
+/* This is the default configuration for all web page */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+/* Header styles */
+.header {
+    position: fixed;
+    width: 100%;
+    height: 10vh;
+    z-index: 100;
+    background-color: #FFF;
+    display: flex;
+}
+
+.header > img {
+    margin: 10px 10px 10px 40px;
+}
+
+/* Navigation bar styles */
+.nav {
+    margin: 10px 20px 10px 0px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.nav > ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 5px;
+}
+
+.nav li{
+    display: inline;
+    text-align: center;
+    margin: 0 10px 0 0;
+}
+
+.nav li a {
+    padding: 2px 7px 2px 7px;
+    color: #666;
+    text-decoration: none;
+}
+
+.nav li a:hover{
+    background-color: #9E9E9E;
+    color: #1A1A1A;
+    border-radius: 5px;
+}
+
+/* Main content styles */
+.main {
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-image: url("/images/landing.jpg");
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main > h1 {
+    color: #FFF;
+    margin-bottom: 25px;
+    font-size: 60px;
+}
+
+.main > p {
+    width: 35%;
+    color: #FFF;
+    font-size: 20px;
+    text-align: center;
+}
+
+/* About content styles */
+.about {
+    width: 100%;
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about > h2 {
+    margin-top: 20px;
+    border-bottom: solid 3px #00B172;
+}
+
+.container {
+    margin: 20px;
+    padding: 20px;
+    border: solid 4px orange;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.square {
+    margin: 30px;
+    padding: 20px 35px;
+    border: solid 4px yellow;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.square > img {
+    width: 35%;
+    height: 11vh;
+}
+
+.square > h3 {
+    margin: 5px 0px;
+    color: #00B172;
+    font-size:x-large;
+}
+
+.square > p {
+    margin-top: 20px;
+    color: #1A1A1A;
+    font-size: large;
+    text-align: center;
+    margin: 0px 30px;
+}
+
+/* Description content styles */
+.description {
+    margin: 0px 20px;
+    width: 97%;
+    height: 90vh;
+    background-color: #00B172;
+    background-image: url("/images/spotify-icon-white.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20vh 20vh;
+    display: flex;
+}
+
+.col {
+    margin: 80px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.left {
+    color: #FFF;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.right
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.col > img {
+    width: 75%;
+    height: 90vh;
+}
+
+.col > h2 {    
+    font-size: 6vh;
+    margin-bottom: 30px;
+    border-bottom: solid 3px #FFF;
+}
+
+.col > h3 {
+    font-size: 4vh;
+    margin: 20px 0px;
+}
+
+.col > p {
+    margin-right: 56vh;
+    font-size: 2.5vh;
+}
 /*
 Colors:
 Text: 1A1A1A
