@@ -4,3 +4,129 @@ Text: 1A1A1A
 Green: #00B172
 White: #FFF
 */
+* h1, h2,h3, h4, div, nav, ul, li, img, body, hr {
+    margin: 0;
+    --text: #1A1A1A;
+    --green: #00B172;
+    --white: #fff;
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+nav {
+    height: 6vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+
+nav img {
+    height: inherit;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+}
+
+nav a {
+    padding-left: 20px;
+    text-decoration: none;
+}
+
+header article {
+    height: calc(94vh - 20px);
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('./../images/landing.jpg');
+    background-size: cover;
+    color: var(--white);
+}
+
+header h1 {
+    font-size: 3em;
+    font-weight: normal;
+    text-align: center;
+}
+
+header p{
+    font-weight: 100;
+    text-align: center;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 65vh;
+    justify-content: space-around;
+}
+
+.article {
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.title {
+    width: fit-content;
+}
+
+.title hr {
+    border: 2px solid var(--green);
+    border-radius: 0.5px;
+}
+
+.features {
+    width: 25vw;
+}
+
+.features img {
+    width: 20vw;
+}
+
+footer {
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.verde {
+    width: 90vw;
+    height: 70vh;
+    background-color: var(--green);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-image: url('./../images/spotify-icon-white.png');
+    background-size: 10vh auto;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.verde article {
+    width: 35vw;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    font-size: 0.9em;
+}
+.verde aside {
+    width: 35vw;
+    height: 60vh;
+}
+footer img {
+    max-width: 20vw;
+}
