@@ -4,103 +4,25 @@ Text: 1A1A1A
 Green: #00B172
 White: #FFF
 */
-
-
-/* Pruebas: Hernández Vázquez Israel
-div.fixed {
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    width: 300px;
-    border: 3px solid #73AD21;
-  }
-
-ul{
-    display: block;
-    color: black;
-    font-size: 40px;
-}
-
-.cajaGrande {
-    width: 1000px;
-    height: 200px;
-    background: red;
-    color: yellow;
-  }
-
-.box {
-    height: 100px;
-    width: 100vw;
-    background: red;
-    color: white;
-  }
-
-
-#one{
-    position: fixed;
-    top: 0;
-    left: 0;    
-    background: white ;
-  }
-
-
-.img1 {
-    display: flex;
-    justify-content: flex-start;
-    width: 50vw;
-    margin: 0 auto;
-    position: relative;
-}
-
-.Navegacion{
-    display: flex;
-    width: 100vw;
-    text-align: center;
-    align-items: center;
-}
-
-.box1{
-    width: 50vw;
-    height: 100px;
-    background: red;
-    float: right;
-    margin: 0 auto;		
-}
-
-
-.img2 {
-    top: 0;
-    left: 0;
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin:0 auto;
-}
-
-*/
 body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
 
 .cajaGrande1 {
     width: 100%;
   }
 
-
 .header{
     position: fixed;
     background: white;
     padding-left: 1em;
-    padding-bottom: 1em;
     width: 100%;
     top:0;
 }
 
 .header img{
-    width: 20vw;
-    height: 10vw;
+    width: 10vw;
+    height: 5vw;
     float: left;
     padding-top: 1em;
 }
@@ -108,7 +30,6 @@ body{
 .header nav{
     float: right;
 }
-
 
 @media screen and ( min-width: 768px){
 .header--menu ul{
@@ -118,45 +39,8 @@ body{
     gap: 40px;
     padding-right: 3em;
     font-size: 30px;
-    
-}
-}
-
-
-
-
-
-/*
-.header--menu li a{
-    text-decoration: none;
-    text-transform: uppercase;
-    color: var(--white);
-    font-weight: bold;
-}
-*/
-
-/*
-@media screen and ( min-width: 768px){
-    .header{
-        padding: 4em 4em 4em 4em;
-    }
-
-    .header--menu ul{
-        display: flex;
-        list-style: none;
-        gap: 40px;
-    }
-    .header--menu li a{
-        text-decoration: none;
-        text-transform: uppercase;
-        color: var(--white);
-        font-weight: bold;
-    }
-    .header--menu ul li a.is-active{
-        color: var(--purple);
     }
 }
-*/
 
 .Fondo img{
     align-content: center;
@@ -167,3 +51,119 @@ body{
     height: 100vw;
     margin: 0 auto;
 }
+
+.texto1{
+    position: absolute;
+    color: #FFF;
+    top: 400px;
+    font-size: 20px;
+    width: 100vw;
+    margin:0 auto;
+    text-align: center;
+  }
+
+.texto1 h1{
+    font-size: 70px;
+  }
+
+.texto1 h3{
+    font-size: 30px;
+  }
+
+.titulo{
+    text-align: center;
+    text-decoration: underline #00B172 3px;
+    text-underline-position: under;
+    font-size: 45px;
+}
+
+.cajaGrande2 div.contenedor{
+    display: flex;
+    padding-top: 3em;
+}
+
+.contenedor div.caja1{
+    width: 33.33%;
+    text-align: center;
+    margin: 3em;
+}
+
+.contenedor div.caja2{
+    width: 33.33%;
+    text-align: center;
+    margin: 3em;
+}
+
+.contenedor div.caja3{
+    width: 33.33%;
+    text-align: center;
+    margin: 3em;
+}
+
+.contenedor h1{
+    color: #00B172;
+    font-size: 30px;
+}
+
+.contenedor h3{
+    font-size: 25px;
+}
+
+.caja1 img{
+    height: 20vh;
+}
+
+.caja2 img{
+    height: 20vh;
+}
+
+.caja3 img{
+    height: 20vh;
+}
+
+.cajaGrande3{
+    display: flex;
+    background-color: #00B172;
+    color: white;
+    padding: 5em;
+    margin: 1em;
+    align-content: center;
+}
+
+.cajaGrande3 div.Text-1{
+    width: 50%;
+}
+
+.Text-1 h1.titulo{
+    text-decoration: underline white 3px;
+    text-underline-position: under;
+    font-size: 35px;
+}
+
+.Text-1 h1{
+    font-size: 30px;
+}
+
+.img-1 img{
+    align-content: center;
+    height: 20vh;
+    padding-top: 20em;
+    padding-right: 4em;
+}
+
+.img-2 img{
+    height: 100vh;
+    padding-top: 5em;
+}
+
+
+
+
+
+
+
+
+
+
+
+  
