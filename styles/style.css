@@ -4,3 +4,89 @@ Text: 1A1A1A
 Green: #00B172
 White: #FFF
 */
+
+.nav-item{
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: white;
+}
+.navbar img{
+    width: 30vh;
+}
+
+
+.intro{
+    background-image: url(./../images/landing.jpg);
+    height: 100vh;
+    background-size: cover; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.text-s h1{
+    padding: 20px;
+    color: white;
+    display:block;
+    align-items: center;
+    text-align: center;
+    font-size: 4em;
+}
+
+.text-s h5{
+    padding: 5px;
+    color: white;
+    display:block;
+    align-items: center;
+    text-align: center;
+}
+
+.whats{
+    padding: 50px;
+    align-items: center;
+    text-align: center;
+}
+.whats h2{
+    text-align: center;
+    padding: 15px;
+}
+.col-sm img{
+    height: 15vh;
+    margin-right: auto;
+    margin-left: auto;
+}
+.col-sm p{
+    text-align: center;
+}
+.col-sm h5{
+    color: #00B172;
+    text-align: center;
+    padding: 5px;
+}
+
+.col h2{
+    color: white;
+}
+
+.col p{
+    color: white;
+}
+.tit{
+    color: white;
+    font-size: 25px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    text-decoration: underline;
+}
+
+#icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#app{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
