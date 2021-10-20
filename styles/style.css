@@ -4,3 +4,33 @@ Text: 1A1A1A
 Green: #00B172
 White: #FFF
 */
+
+
+@import url(./navBar.css);
+
+
+:root{
+    --fontBase: 'Poppins', sans-serif;
+    --colorText: #1A1A1A;
+    --colorGreen: #00B172;
+    --colorWhite: #FFF;
+    font-size: 10px;
+    --textNav: 400 2em/1em var(--fontBase);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+/* 
+Premium Discover Help Download Music for everyone. Spotify is now free on mobile, tablet and computer. Listen to the
+    right music, wherever you are. What’s on Spotify? Millions of Songs There are millions of songs on Spotify HD Music
+    Listen to music as if you were listening live Stream Everywhere Stream music on your smartphone, tablet or computer
+    It’s as yeezy as Kanye West. Search Know what you want to listen to? Just search and hit play. Browse Check out the
+    latest charts, brand new releases and great playlists for right now. Discover Enjoy new music every Monday with your
+    own personal playlist. Or sit back and enjoy Radio. */
