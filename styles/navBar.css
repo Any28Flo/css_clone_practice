@@ -1,48 +1,50 @@
 
 #nav{
-    display: flex;
-    flex-direction: row;
-    background-color: var(--colorWhite);
-    border: 2px solid black;
-    height: 8em;
-    width: auto;
+    background-image: url(./../images/landing.jpg) ;
+    height: 100em;
+    width: 100vw;
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .nav__logo{
+    position: absolute;
+    top: 0;
+    left: 0;
     justify-content: flex-start;
-    width: 50%;
-    height: 100%;
+    width: 100%;
+    height: 19%;
+    background-color: var(--colorWhite);
 }
 
 .nav__logo img{
     padding-left: 3em;
-    margin: 1.5em 0;
-    width: 38%;
-    height: 65%;
+    margin-top: 3em;
+    width: 22em;
+    height: 6em;
 }
 
 .nav__list{
-    width: 100%;
-    height: 70%;
-    display: flex;
-    flex-direction: row;
-    justify-content:flex-end;
-    margin: 1.5em 0;
-    padding-right: 5em;
+    position: absolute;
+    top: 0;
+    left: 88em; 
 }
 
 .nav__list ul{
-    height: 100%;
     list-style-type: none;
-    gap: 3em;
+    margin-top: 5mm;
     padding: 0;
+    overflow: hidden;
 } 
 
-
+.nav__list li{
+    float: left;
+}
 .nav__list ul li a{
-    width: 100%;
-    padding-top:14em;
+    display: block;
     text-align: center;
+    padding: 1.4em 0.5em;
     color: var(--colorText);
     font: var(--textNav);
     text-decoration: none; 

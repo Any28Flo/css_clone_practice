@@ -7,7 +7,7 @@ White: #FFF
 
 
 @import url(./navBar.css);
-
+@import url(./coverPage.css);
 
 :root{
     --fontBase: 'Poppins', sans-serif;
@@ -15,7 +15,9 @@ White: #FFF
     --colorGreen: #00B172;
     --colorWhite: #FFF;
     font-size: 10px;
-    --textNav: 400 2em/1em var(--fontBase);
+    --textNav: 400 2.3em/1em var(--fontBase);
+    --textNormal: 300 2.8em/1.4em var(--fontBase);
+    --textTitle: 500 8.2em/1em var(--fontBase);
 }
 
 
@@ -28,9 +30,20 @@ White: #FFF
 
 
 /* 
-Premium Discover Help Download Music for everyone. Spotify is now free on mobile, tablet and computer. Listen to the
-    right music, wherever you are. What’s on Spotify? Millions of Songs There are millions of songs on Spotify HD Music
-    Listen to music as if you were listening live Stream Everywhere Stream music on your smartphone, tablet or computer
-    It’s as yeezy as Kanye West. Search Know what you want to listen to? Just search and hit play. Browse Check out the
-    latest charts, brand new releases and great playlists for right now. Discover Enjoy new music every Monday with your
-    own personal playlist. Or sit back and enjoy Radio. */
+Premium Discover Help Download
+Music for everyone. 
+Spotify is now free on mobile, tablet and computer. Listen to the right music, wherever you are. 
+What’s on Spotify? 
+Millions of Songs 
+There are millions of songs on Spotify 
+HD Music
+Listen to music as if you were listening live 
+Stream Everywhere 
+Stream music on your smartphone, tablet or computer
+It’s as yeezy as Kanye West. 
+Search
+Know what you want to listen to? Just search and hit play.
+Browse 
+Check out the latest charts, brand new releases and great playlists for right now.
+ Discover
+Enjoy new music every Monday with your own personal playlist. Or sit back and enjoy Radio. */
