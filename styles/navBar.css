@@ -6,6 +6,7 @@
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
+    
 }
 
 .nav__logo{
@@ -16,6 +17,7 @@
     width: 100%;
     height: 19%;
     background-color: var(--colorWhite);
+    position: fixed;
 }
 
 .nav__logo img{
@@ -29,6 +31,7 @@
     position: absolute;
     top: 0;
     left: 88em; 
+    position: fixed;
 }
 
 .nav__list ul{
