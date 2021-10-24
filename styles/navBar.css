@@ -6,7 +6,6 @@
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
-    
 }
 
 .nav__logo{
@@ -44,6 +43,7 @@
 .nav__list li{
     float: left;
 }
+
 .nav__list ul li a{
     display: block;
     text-align: center;
