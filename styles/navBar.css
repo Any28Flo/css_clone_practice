@@ -1,0 +1,54 @@
+
+#nav{
+    background-image: url(./../images/landing.jpg) ;
+    height: 100em;
+    width: 100vw;
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.nav__logo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    justify-content: flex-start;
+    width: 100%;
+    height: 19%;
+    background-color: var(--colorWhite);
+    position: fixed;
+}
+
+.nav__logo img{
+    padding-left: 3em;
+    margin-top: 3em;
+    width: 22em;
+    height: 6em;
+}
+
+.nav__list{
+    position: absolute;
+    top: 0;
+    left: 88em; 
+    position: fixed;
+}
+
+.nav__list ul{
+    list-style-type: none;
+    margin-top: 5mm;
+    padding: 0;
+    overflow: hidden;
+} 
+
+.nav__list li{
+    float: left;
+}
+
+.nav__list ul li a{
+    display: block;
+    text-align: center;
+    padding: 1.4em 0.5em;
+    color: var(--colorText);
+    font: var(--textNav);
+    text-decoration: none; 
+}

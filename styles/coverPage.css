@@ -1,0 +1,30 @@
+.coverPage__txt h1{
+    position: absolute;
+    top: 69%;
+    left: 51%;
+    transform: translate(-50%, -50%);
+ 
+    width: 70vw;
+    margin: 0 auto;
+    color: var(--colorWhite);
+    font: var(--textTitle);
+    text-align: center;
+}
+
+.coverPage__txt p{
+    position: absolute;
+    top: 87%;
+    left: 51%;
+    height: 1em;
+    transform: translate(-50%, -50%);
+    
+    width: 55vw;
+    margin: 0 auto;
+    color: var(--colorWhite);
+    font: var(--textNormal);
+    text-align: center;
+}
+
+
+
+

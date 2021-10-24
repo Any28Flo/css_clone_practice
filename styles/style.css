@@ -4,3 +4,30 @@ Text: 1A1A1A
 Green: #00B172
 White: #FFF
 */
+
+
+@import url(./navBar.css);
+@import url(./coverPage.css);
+@import url(./whatsSpotify.css);
+@import url(./screanGreen.css);
+
+:root{
+    --fontBase: 'Poppins', sans-serif;
+    --colorText: #1A1A1A;
+    --colorGreen: #00B172;
+    --colorWhite: #FFF;
+    font-size: 10px;
+    --textNav: 400 2.3em/1em var(--fontBase);
+    --textNormal: 300 2.8em/1.4em var(--fontBase);
+    --textTitle: 500 8.2em/1em var(--fontBase);
+    --textDescrip: 200 2.2em/1.2em var(--fontBase);
+
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+

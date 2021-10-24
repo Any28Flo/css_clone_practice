@@ -1,0 +1,54 @@
+#whatsSpot{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5em;
+}
+
+.whatsSpot__text{
+    padding-top: 1em;
+    padding-bottom: 2em;
+    font: var(--textNormal);
+    color: var(--colorText);
+    text-align: center;
+
+}
+
+.whatsSpot__div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 8em;
+}
+
+.whatsSpot__div-element{
+    width: 30em;
+    height: 30em;
+    justify-content: center;
+}
+
+.whatsSpot__div-element-img--img{
+    width: 10em;
+    height: 10em;
+    margin: auto;
+    display: block;    
+}
+
+
+.whatsSpot__div-element-txt h2{
+    font: var(--textNormal);
+    color: var(--colorGreen);
+    text-align: center;
+    font-weight: 700;
+    padding: 1em 0;
+
+}
+
+.whatsSpot__div-element-txt p{
+    font: var(--textDescrip);
+    color: var(--colorText);
+    text-align: center;
+    
+}
+
+
